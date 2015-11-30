@@ -21,6 +21,7 @@ public class Solution2 {
 				llist.add(nums[i]);
 			}
 		}
+		if(list.contains(llist)) return;//ÅĞ¶ÏÖØ¸´
 		list.add(llist);
 	}
 }
