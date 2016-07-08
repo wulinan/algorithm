@@ -4,9 +4,9 @@ public class Test {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-        int[] seq = {7,4,6,5};
-        Solution s = new Solution();
-        System.out.println(s.verifySquenceOfBST(seq));
+        int[] seq = {2,3,4,6,8,7,5};
+        SolutionII s = new SolutionII();
+        System.out.println(s.VerifySquenceOfBST(seq));
 	}
 
 }
